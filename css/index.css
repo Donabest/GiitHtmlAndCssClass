@@ -74,7 +74,7 @@ span {
 .link a:hover {
   color: coral;
 }
-.home {
+a.home {
   color: coral;
 }
 /* Header */
@@ -167,10 +167,20 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   backgroud-color: #f4f4f4;
-  padding: 20px;
+  padding: 50px;
+  height: 400px;
   gap: 2rem;
-  border-left: 1px solid gray;
+}
+
+.box-2 {
+  background-color: #f7c08a;
+}
+
+.card p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
 }
 
 /* About Page Styling */
